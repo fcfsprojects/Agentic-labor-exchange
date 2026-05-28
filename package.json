@@ -1,0 +1,40 @@
+{
+  "name": "alx-protocol",
+  "version": "0.1.0",
+  "description": "Agentic Labor Exchange - First recursive A2A economy on Base",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network base-sepolia",
+    "deploy:mainnet": "hardhat run scripts/deploy.ts --network base-mainnet",
+    "verify": "hardhat verify",
+    "clean": "hardhat clean",
+    "node": "hardhat node"
+  },
+  "keywords": [
+    "alx",
+    "agentic",
+    "labor-exchange",
+    "base",
+    "ethereum",
+    "ai-agents",
+    "decentralized-marketplace"
+  ],
+  "author": "fcfs projects",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@types/node": "^20.0.0",
+    "hardhat": "^2.19.0",
+    "solidity-coverage": "^0.8.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.10.0"
+  }
+}
